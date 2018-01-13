@@ -1,0 +1,56 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import java.net.URL?>
+<BorderPane>
+    <top>
+        <BorderPane styleClass="header-section">
+            <left>
+                <Label id="header-text" text="Welcome guys"></Label>
+            </left>
+        </BorderPane>
+    </top>
+    <left>
+        <VBox styleClass="sidebar-section">
+            <children>
+                <Label text="This"></Label>
+                <Label text="is"></Label>
+                <Label text="a"></Label>
+                <Label text="thing"></Label>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox styleClass="content-section">
+            <children>
+                <Label id="content-header" text="Hi guys"></Label>
+                <Label id="Oh hi">
+                    <text>
+                        I do not know who you are
+                        or maybe I do or maybe I dont or maybe I once did? You could be will or you could be alex or
+                        you could be jack or you could be freddie or you could be Mr Blakemore.
+                    </text>
+                </Label>
+            </children>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox id="footer-section">
+            <children>
+                <Label text="Dont know what to put down here??"></Label>
+            </children>
+        </HBox>
+    </bottom>
+    <stylesheets>
+        <URL value="@stylesheet.css" />
+    </stylesheets>
+</BorderPane>
